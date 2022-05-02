@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6367428282093F000EBCF39 /* FailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6367427282093F000EBCF39 /* FailureView.swift */; };
+		F636742A28209A8400EBCF39 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F636742928209A8400EBCF39 /* Extensions.swift */; };
 		F6961272281F192100BB208C /* Just_Keep_TypingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6961271281F192100BB208C /* Just_Keep_TypingApp.swift */; };
 		F6961274281F192100BB208C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6961273281F192100BB208C /* ContentView.swift */; };
 		F6961276281F192300BB208C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6961275281F192300BB208C /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6367427282093F000EBCF39 /* FailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureView.swift; sourceTree = "<group>"; };
+		F636742928209A8400EBCF39 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F696126E281F192100BB208C /* Just-Keep-Typing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just-Keep-Typing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6961271281F192100BB208C /* Just_Keep_TypingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_Keep_TypingApp.swift; sourceTree = "<group>"; };
 		F6961273281F192100BB208C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				F6961271281F192100BB208C /* Just_Keep_TypingApp.swift */,
 				F6961273281F192100BB208C /* ContentView.swift */,
+				F6367427282093F000EBCF39 /* FailureView.swift */,
+				F636742928209A8400EBCF39 /* Extensions.swift */,
 				F6961275281F192300BB208C /* Assets.xcassets */,
 				F6961277281F192300BB208C /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6961274281F192100BB208C /* ContentView.swift in Sources */,
+				F6367428282093F000EBCF39 /* FailureView.swift in Sources */,
 				F6961272281F192100BB208C /* Just_Keep_TypingApp.swift in Sources */,
+				F636742A28209A8400EBCF39 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
