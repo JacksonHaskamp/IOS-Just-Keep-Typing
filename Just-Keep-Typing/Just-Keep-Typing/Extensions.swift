@@ -10,6 +10,7 @@ import SwiftUI
 
 extension Color {
     static let failBackground = Color("Fail-Background")
+    static let successBackground = Color("Success-Background")
     static let icon = Color("Icon")
     static let text = Color("Text")
     static let systemBackground = Color(uiColor: .systemBackground)
