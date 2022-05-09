@@ -44,7 +44,7 @@ struct TypingView: View {
                 .onTapGesture {
                     if self.textString == "Once, you start, don't stop."{
                         self.textString = ""
-                        let timer2 = Timer.scheduledTimer(withTimeInterval: 15.0, repeats: false) { timer in
+                        let timer2 = Timer.scheduledTimer(withTimeInterval: 60.0, repeats: false) { timer in
                             print("Complete!")
                             let saveFile = Date().string(format: "yyyy-MM-dd")
                             print(saveFile)
