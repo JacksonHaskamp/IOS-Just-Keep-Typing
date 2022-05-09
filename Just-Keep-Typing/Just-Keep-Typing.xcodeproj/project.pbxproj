@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F6367428282093F000EBCF39 /* FailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6367427282093F000EBCF39 /* FailureView.swift */; };
 		F636742A28209A8400EBCF39 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F636742928209A8400EBCF39 /* Extensions.swift */; };
+		F651D55E2828994900A5FB11 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = F651D55D2828994900A5FB11 /* data.txt */; };
+		F651D56028289AC200A5FB11 /* SaveHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651D55F28289AC200A5FB11 /* SaveHelper.swift */; };
 		F6961272281F192100BB208C /* Just_Keep_TypingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6961271281F192100BB208C /* Just_Keep_TypingApp.swift */; };
 		F6961274281F192100BB208C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6961273281F192100BB208C /* ContentView.swift */; };
 		F6961276281F192300BB208C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6961275281F192300BB208C /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		F6367427282093F000EBCF39 /* FailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureView.swift; sourceTree = "<group>"; };
 		F636742928209A8400EBCF39 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F651D55D2828994900A5FB11 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		F651D55F28289AC200A5FB11 /* SaveHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveHelper.swift; sourceTree = "<group>"; };
 		F696126E281F192100BB208C /* Just-Keep-Typing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just-Keep-Typing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6961271281F192100BB208C /* Just_Keep_TypingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_Keep_TypingApp.swift; sourceTree = "<group>"; };
 		F6961273281F192100BB208C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,8 +59,10 @@
 		F6961270281F192100BB208C /* Just-Keep-Typing */ = {
 			isa = PBXGroup;
 			children = (
+				F651D55D2828994900A5FB11 /* data.txt */,
 				F6961271281F192100BB208C /* Just_Keep_TypingApp.swift */,
 				F6961273281F192100BB208C /* ContentView.swift */,
+				F651D55F28289AC200A5FB11 /* SaveHelper.swift */,
 				F6367427282093F000EBCF39 /* FailureView.swift */,
 				F636742928209A8400EBCF39 /* Extensions.swift */,
 				F6961275281F192300BB208C /* Assets.xcassets */,
@@ -132,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6961279281F192300BB208C /* Preview Assets.xcassets in Resources */,
+				F651D55E2828994900A5FB11 /* data.txt in Resources */,
 				F6961276281F192300BB208C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F651D56028289AC200A5FB11 /* SaveHelper.swift in Sources */,
 				F6961274281F192100BB208C /* ContentView.swift in Sources */,
 				F6367428282093F000EBCF39 /* FailureView.swift in Sources */,
 				F6961272281F192100BB208C /* Just_Keep_TypingApp.swift in Sources */,

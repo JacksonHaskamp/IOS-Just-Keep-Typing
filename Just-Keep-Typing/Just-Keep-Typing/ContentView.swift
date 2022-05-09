@@ -5,12 +5,19 @@
 //  Created by Jackson on 5/1/22.
 //
 
+//Used this stackoverflow post discussion for file saving:
+//https://stackoverflow.com/questions/19351535/saving-text-file-to-documents-directory-in-ios-7
+
 import SwiftUI
+
+
 
 
 struct ContentView: View {
     @State private var textString: String = "Once, you start, don't stop."
     @State var timer: Timer?
+    var saveHelper = SaveHelper()
+    
     var body: some View {
         VStack(alignment: .center) {
             Spacer()
@@ -26,6 +33,7 @@ struct ContentView: View {
                         if counter >= 5 {
                             print("failView in timer")
                             //MARK: switch views to fail view, and delete all text
+                            
                             timer.invalidate()
                         }
                         
@@ -40,6 +48,14 @@ struct ContentView: View {
                 .onTapGesture {
                     if self.textString == "Once, you start, don't stop."{
                         self.textString = ""
+                        let timer2 = Timer.scheduledTimer(withTimeInterval: 10.0, repeats: false) { timer in
+                            print("Complete!")
+                            let saveFile = Date().string(format: "yyyy-MM-dd")
+                            print(saveFile)
+                            saveHelper.save(fileName: saveFile, text: textString)
+                            
+                        }
+                        
                     }
                 }
                 

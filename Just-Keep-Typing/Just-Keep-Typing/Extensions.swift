@@ -14,3 +14,12 @@ extension Color {
     static let text = Color("Text")
     static let systemBackground = Color(uiColor: .systemBackground)
 }
+
+//https://stackoverflow.com/questions/28332946/how-do-i-get-the-current-date-in-short-format-in-swift
+extension Date {
+    func string(format: String) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = format
+        return formatter.string(from: self)
+    }
+}
